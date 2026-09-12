@@ -31,6 +31,7 @@ public class EventRegistration {
         System.out.print("Enter your age: ");
         int age = sc.nextInt();
 
+        
         try {
 
             validateAge(age);
@@ -42,6 +43,7 @@ public class EventRegistration {
             System.out.println("Reason: " + e.getMessage());
         }
 
+        
         sc.close();
     }
 }
